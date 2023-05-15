@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
   <title>Leaderboard</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
@@ -12,7 +16,7 @@
       <div>
         <div class="flex items-center mb-4">
           <h5 class="text-lg mr-3">Recent scores</h5>
-          <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Refresh</button>
+          <button type="button" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Refresh</button>
         </div>
         <ul class="border border-gray-700 rounded">
           <li class="flex items-center bg-gray-800 py-1 px-4">
@@ -27,7 +31,6 @@
             <span class="mr-2">Name:</span>
             <span class="text-gray-200 py-1 px-2">75</span>
           </li>
-          <!-- Add more list items here with dynamic names and scores -->
         </ul>
       </div>
       <div>
