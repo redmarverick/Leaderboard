@@ -7,10 +7,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'output.bundle.js',
-  },
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'output.bundle.js',
     assetModuleFilename: 'styles/[name][ext]',
   },
   module: {
