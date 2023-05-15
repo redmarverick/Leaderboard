@@ -97,7 +97,7 @@ Clone this repository to your desired folder and install required dependencies:
 To run the project, execute the following command:
 
 ```sh
-  npm webpack install
+  npm install webpack
   npm run production
   npm start
 ```
