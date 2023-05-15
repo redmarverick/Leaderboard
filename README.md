@@ -98,7 +98,7 @@ To run the project, execute the following command:
 
 ```sh
   npm webpack install
-  npm run build
+  npm run production
   npm start
 ```
 

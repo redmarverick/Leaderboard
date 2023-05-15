@@ -8,14 +8,17 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'output.bundle.js',
   },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'output.bundle.js',
+    assetModuleFilename: 'styles/[name][ext]',
+  },
   module: {
     rules: [
-      // CSS and style loader configuration
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
-      // Other rules...
     ],
   },
   plugins: [
