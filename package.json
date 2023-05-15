@@ -1,7 +1,7 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>\r <div align=\"center\">\r   <h1><b>Leaderboard</b></h1>\r </div>",
   "main": "webpack.config.js",
   "scripts": {
     "lint": "npx eslint . && npx stylelint '**/*.{css,scss}'",
@@ -26,6 +26,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
     "hint": "^7.1.8",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.2",
     "stylelint": "^13.13.1",
